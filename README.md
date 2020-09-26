@@ -1,4 +1,4 @@
-# Discord Bot For Tommpa's server 
+# Discord Bot For friends's server
 
 Small fun project written with discord.js for a friend.  
 Purpose of the bot is to iterate over all members of the server and assign roles based on their length of stay with server.
