@@ -65,14 +65,14 @@ const assignRoles = async (
         client.channels.cache
           .get(channel.id)
           .send(
-            `${member.user} has been with us for ${days} days and received role ${roleToAssign.name}`
+            `${member.user} stayed here for ${days} days and deserved new role ${roleToAssign.name}`
           );
       }
     }
   });
 
   if (noAssignedRoles) {
-    client.channels.cache.get(channel.id).send('No assigned roles today :(');
+    client.channels.cache.get(channel.id).send('No roles assigned');
   }
 };
 
